@@ -9,22 +9,19 @@ public class NuzlockeController
 	private NuzlockeFrame appFrame;
 	private Nuzlocke myNuzlocke;
 	private int clickCount;
-	
+
 	NuzlockeController()
 	{
 		this.myNuzlocke = new Nuzlocke();
-
 	}
-	
+
 	public void start()
 	{
-		appFrame = new NuzlockeFrame(this);		
-		
+		appFrame = new NuzlockeFrame(this);
 	}
 
 	public String getNuzlockeResults()
 	{
-		// TODO Auto-generated method stub
 		return null;
 	}
 
